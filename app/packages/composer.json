@@ -1,0 +1,22 @@
+{
+    "name": "anil/packages",
+    "description": "no des",
+    "type": "library",
+    "require": {
+        "web-token/jwt-key-mgmt": "^2.2",
+        "web-token/jwt-signature": "^2.2",
+        "web-token/jwt-signature-algorithm-rsa": "^2.2"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Anil\\Packages\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "anil",
+            "email": "anil_baniya@outlook.com"
+        }
+    ]
+}

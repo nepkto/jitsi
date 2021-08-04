@@ -18,10 +18,10 @@
                 </div>
 
                 <div class="card-body">
-                    <li><a href="{{ url('c1') }}">Class 1 (admin@admin.com1)</a></li>
-                    <li><a href="{{ url('c2') }}">Class 2 (admin@admin.com2)</a></li>
-                    <li><a href="{{ url('c3') }}">Class 3 (admin@admin.com3)</a></li>
-                    <li><a href="{{ url('c4') }}">Class 4 (admin@admin.com4)</a></li>
+                    <li><a target="_blank" href="{{ url('c1') }}">Class 1 (admin@admin.com1)</a></li>
+                    <li><a target="_blank" href="{{ url('c2') }}">Class 2 (admin@admin.com2)</a></li>
+                    <li><a target="_blank" href="{{ url('c3') }}">Class 3 (admin@admin.com3)</a></li>
+                    <li><a target="_blank" href="{{ url('c4') }}">Class 4 (admin@admin.com4)</a></li>
                 </div>
             </div>
         </div>
